@@ -3,6 +3,15 @@
 - On submitting a Google Form, all fields are automatically converted to an issue with `feature` as a label.
 - The issue is then automatically added to the Project `Code&Coffee Feature Signup` and again moved to `Speaker Queue` under the Kanban view
 
+# Setup
+
+- Create a personal access token on GitHub.
+- Create a GitHub Project `Code&Coffee Feature Signup` and a GitHub repository `feature-signup`: link the repositry to the project.
+- Add a new label `feature` under Issues tab
+- Go to the project `Code&Coffee Feature Signup` and create a board/kanban view, assigning your custom name to a column.
+- Add github-project-automation using Workflows as mentioned below.
+- On the Google Forms, add script.js to Apps Script editor.
+
 ## How does it work?
 
 On the Google Forms
